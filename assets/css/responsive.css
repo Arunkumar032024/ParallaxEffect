@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+    .about-section .about .course-img,
+    .about-section .about .course-content{
+        width: 100%;
+    }
+
+    .events-section div article{
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    header .container{
+        flex-direction: column;
+    }
+    header .left-section,
+    header .right-section{
+        width: 100%;
+    }
+    /* banner-section  */
+    .banner-section div h2{
+        font-size: 3rem;
+    }
+    
+}
+@media (max-width: 592px) {
+    nav ul{
+        width: 10%;
+    }
+    nav ul li{
+        display: none;
+    }
+    #list-icon{
+        display: inline;
+    }
+
+    /* banner-section  */
+    .banner-section div h2{
+        font-size: 2rem;
+    }
+    .banner-section div p{
+        font-size: 0.625rem;
+    }
+
+    .events-section div article{
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    header .left-section p{
+        display: block;
+    }
+
+    /* banner-section  */
+    .banner-section div h2{
+        font-size: 1.25rem;
+    }
+    .banner-section div p{
+        font-size: 0.413rem;
+    }
+}
